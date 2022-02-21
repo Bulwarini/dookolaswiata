@@ -1,0 +1,387 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  min-width:200px;
+  max-width:1920px;
+  margin:0;
+  background: url("assets/images/tlo.png");
+  background-repeat:   no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Powitanie-Baner{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:1920px;
+  min-width:1920px;
+  height:270px;
+  margin-top:0px;
+  margin-bottom:810px;
+  min-height:270px;
+}
+.Powitanie-Baner-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.IKONAPC{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:474px;
+  width:190px;
+  min-width:190px;
+  height:190px;
+  margin-top:40px;
+  margin-bottom:40px;
+  min-height:190px;
+  content:url(assets/images/IKONAPC.png);
+}
+.IKONAPC-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Witaj-na-stronie{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:190px;
+  width:782px;
+  height:121px;
+  margin-top:1px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(200, 255, 43, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:100px;
+  line-height:120px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Witaj-na-stronie-outer{
+  pointer-events:none;
+  z-index:5;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Dolna-cz----strony{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:0px;
+  width:1920px;
+  height:540px;
+  margin-top:540px;
+  overflow:hidden;
+}
+.Dolna-cz----strony-outer{
+  pointer-events:none;
+  z-index:6;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Prawy{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:960px;
+  width:960px;
+  min-width:960px;
+  height:540px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:540px;
+  background-color:rgba(255, 185, 120, 1);
+}
+.Prawy-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Premiera-RTX-3050-Cz{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:40px;
+  width:705px;
+  min-width:698px;
+  margin-top:40px;
+  margin-bottom:472px;
+  min-height:28px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:800;
+  font-size:24px;
+  line-height:29px;
+}
+.Premiera-RTX-3050-Cz-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.MIUI-13-Nowy-system-{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:40px;
+  width:475px;
+  min-width:475px;
+  margin-top:-435px;
+  margin-bottom:400px;
+  min-height:35px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:800;
+  font-size:24px;
+  line-height:29px;
+}
+.MIUI-13-Nowy-system--outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.Samsung-Galaxy-S22-P{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:40px;
+  width:657px;
+  min-width:414px;
+  margin-top:-363px;
+  margin-bottom:307px;
+  min-height:56px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:800;
+  font-size:24px;
+  line-height:29px;
+}
+.Samsung-Galaxy-S22-P-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Robert-Lewandowski-o{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:40px;
+  width:1001px;
+  min-width:822px;
+  margin-top:-270px;
+  margin-bottom:214px;
+  min-height:56px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:800;
+  font-size:24px;
+  line-height:29px;
+}
+.Robert-Lewandowski-o-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Premiera-Dying-Light{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:40px;
+  width:967px;
+  min-width:704px;
+  margin-top:-177px;
+  margin-bottom:121px;
+  min-height:56px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:800;
+  font-size:24px;
+  line-height:29px;
+}
+.Premiera-Dying-Light-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.PROCESORY-AMD-WINOWA{
+  position:relative;
+  z-index:17;
+  pointer-events:none;
+  margin-left:40px;
+  width:830px;
+  min-width:830px;
+  margin-top:-84px;
+  margin-bottom:49px;
+  min-height:35px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:800;
+  font-size:24px;
+  line-height:29px;
+}
+.PROCESORY-AMD-WINOWA-outer{
+  pointer-events:none;
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.Lewy{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:0px;
+  width:960px;
+  min-width:960px;
+  height:540px;
+  margin-top:-540px;
+  margin-bottom:0px;
+  min-height:540px;
+  background-color:rgba(147, 183, 252, 1);
+}
+.Lewy-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.O-nas-i{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:429px;
+  width:101.21px;
+  min-width:101.21px;
+  height:130px;
+  margin-top:1px;
+  margin-bottom:409px;
+  min-height:130px;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.O-nas-i-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.image-1{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:0px;
+  width:101.21px;
+  min-width:101.21px;
+  height:130px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:130px;
+  content:url(assets/images/image_1.png);
+}
+.image-1-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Jeste-my-kompleksow-{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:1px;
+  width:958px;
+  min-width:958px;
+  margin-top:-409px;
+  margin-bottom:73px;
+  min-height:336px;
+  text-align:justified;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:200;
+  font-size:48px;
+  line-height:58px;
+}
+.Jeste-my-kompleksow--outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
